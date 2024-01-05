@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Prihlásenie Sa</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="./login.js"></script>
+
+</head>
+
+<body>
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+    <strong> Web nemusí fungovať ako ma pretože nieje dokončený.<strong>
+  </div>
+  <form action="#">
+    <div>
+      <h2>Prihlásenie sa</h2>
+    </div>
+    <div>
+      <label for="username">Použiváteľské meno</label>
+      <input type="text" id="username" name="username">
+    </div>
+    <div>
+      <label for="password">Heslo</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <div>
+      <input type="button" onclick="validate()" value="Login">
+    </div>
+  </form>
+</body>
+
+</html>

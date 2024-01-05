@@ -1,0 +1,29 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Administrátorský Panel</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <script src="admin.js"></script>
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+    <strong> Úspešne prihlasený ako Administrátor.<strong>
+  </div>
+  <div class="container">
+    <h1>Administrátorský Panel</h1>
+    <div class="admin-content">
+      <p>Vytajte na Administrátorskom Paneli. </p>
+      <button class="btn">Pridať Účet</button>
+      <button class="btn" onclick="manageUser()">Spravovať Účty</button>
+      <button class="btn">Odstrániť Účet</button>
+      <button class="btn">Nastavenia</button>
+      <button class="btn" onclick="logOut()">Odhlásiť Sa</button>
+    </div>
+  </div>
+</body>
+
+</html>
